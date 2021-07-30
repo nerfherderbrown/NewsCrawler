@@ -9,7 +9,8 @@ $all_resources = @()
 foreach ($item in $test){
     if ($item.href -notlike "https://*"){$link = "https://cyware.com" + $item.href}
     else{$link = $item.href}
-    $truelink = $link.Substring(0, $link.IndexOf('?'))
+    try{$truelink = $link.Substring(0, $link.IndexOf('?'))}
+    catch{write-host $error[0]}
     $temp_obj = new-object -TypeName psobject -Property @{
         Source = 'cyware.com'
         Title = $item.innerText
