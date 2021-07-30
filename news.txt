@@ -12,3 +12,4 @@ https://www.govinfosecurity.com/what-be-done-to-enhance-electrical-grid-security
 https://www.zdnet.com/article/google-claims-no-instances-of-foreign-interference-campaigns-targeting-australia/
 https://www.cisecurity.org/blog/mdbr-stops-ransomware-phishing-malware-and-more/
 https://www.helpnetsecurity.com/2021/07/30/cloud-backup-security-practices/
+https://therecord.media/python-team-fixes-bug-that-allowed-takeover-of-pypi-repository/
