@@ -1,8 +1,9 @@
 $newstext = './news.txt'
 $imported_articles = get-content $newstext
-Invoke-WebRequest -Uri 'https://cyware.com/cyber-security-news-articles'
+$HTML = Invoke-WebRequest -Uri 'https://cyware.com/cyber-security-news-articles'
 $test = $HTML.links | where innerHTML -Like "*cy-card__title m-0 cursor-pointer pb-3*" | select innerText, href
 $date = get-date -Format yyyyMMdd
+$test
 $all_resources = @()
 foreach ($item in $test){
     if ($item.href -notlike "https://*"){$link = "https://cyware.com" + $item.href}
