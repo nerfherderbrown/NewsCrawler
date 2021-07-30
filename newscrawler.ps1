@@ -18,7 +18,9 @@ foreach ($item in $test){
         Date = $date
     }
     if (!($imported_articles -contains $temp_obj.link)){
+        write-host "Exporting Results"
         $all_resources += $temp_obj
         $temp_obj.link | Out-File $newstext -Append
     }
+    else{write-host "Links already in file"}
 }
