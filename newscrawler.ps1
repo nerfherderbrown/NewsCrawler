@@ -20,6 +20,7 @@ foreach ($item in $test){
         $temp_obj | export-csv -NoTypeInformation $newscsv -Append
     }
 }
+$test
 #if($all_resources){
 #    $ArrayTable = New-Object 'System.Collections.Generic.List[System.Object]'
 #    foreach ($article in $all_resources){
