@@ -20,7 +20,8 @@ foreach ($item in $test){
     if (!($imported_articles -contains $temp_obj.link)){
         write-host "Exporting Results"
         $all_resources += $temp_obj
-        $temp_obj.link | Out-File $newstext -Append
+        $temp_obj.link
+        $temp_obj.link | Out-File .\news.txt -Append
     }
     else{write-host "Links already in file"}
 }
