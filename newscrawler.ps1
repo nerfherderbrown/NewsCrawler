@@ -1,4 +1,5 @@
 $newstext = './news.txt'
+ls .
 $imported_articles = get-content $newstext
 $HTML = Invoke-WebRequest -Uri 'https://cyware.com/cyber-security-news-articles'
 $test = $HTML.links | where innerHTML -Like "*cy-card__title m-0 cursor-pointer pb-3*" | select innerText, href
