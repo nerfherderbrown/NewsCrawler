@@ -21,7 +21,7 @@ foreach ($item in $test){
         write-host "Exporting Results"
         $all_resources += $temp_obj
         $temp_obj.link
-        $temp_obj.link | Out-File .\news.txt -Append
+        $temp_obj.link | Out-File ./news.txt -Append
     }
     else{write-host "Links already in file"}
 }
