@@ -25,3 +25,33 @@ foreach ($item in $test){
     }
     else{write-host "Links already in file"}
 }
+$URI = 'https://discord.com/api/webhooks/870740331832950814/aidCdz3R9HIRjV8jAbGSOU31_rrVQWcBmLKiBxc_ssGHR1wFpEg8Hxch2ZY5w5KrRfuy'
+[System.Collections.ArrayList]$embedArray = @()
+$color = '4289797'
+if ($all_resources){
+    foreach ($item in $all_resources){
+        $embedObject = [PSCustomObject]@{
+            color = $color
+            title = $item.Title
+            url = $item.link
+        }
+        $embedArray.Add($embedObject)
+    }
+
+    $payload = [PSCustomObject]@{
+        embeds = $embedArray
+    }
+}
+else{
+    $embedObject = [PSCustomObject]@{
+        color = $color
+        title = "No new news!"
+    }
+    $embedArray.Add($embedObject)
+
+    $payload = [PSCustomObject]@{
+        embeds = $embedArray
+    }
+}
+
+Invoke-RestMethod -Uri $URI -Method Post -Body ($payload | ConvertTo-Json -Depth 10) -ContentType application/json
