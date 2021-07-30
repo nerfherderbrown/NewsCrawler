@@ -13,3 +13,4 @@ https://www.zdnet.com/article/google-claims-no-instances-of-foreign-interference
 https://www.cisecurity.org/blog/mdbr-stops-ransomware-phishing-malware-and-more/
 https://www.helpnetsecurity.com/2021/07/30/cloud-backup-security-practices/
 https://therecord.media/python-team-fixes-bug-that-allowed-takeover-of-pypi-repository/
+https://krebsonsecurity.com/2021/07/the-life-cycle-of-a-breached-database/
