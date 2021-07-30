@@ -8,6 +8,8 @@ jobs:
         uses: actions/checkout@v2
       - run: |
           ./newscrawler.ps1
+      - name: set email
+        run: git config --local user.email daniel.e.brown2@gmail.com
       - name: check for changes
         run: git status
       - name: stage changed files
