@@ -9,3 +9,6 @@ https://www.nextgov.com/cybersecurity/2021/07/survey-pandemic-has-left-public-se
 https://www.mcafee.com/blogs/other-blogs/mcafee-labs/babuk-biting-off-more-than-they-could-chew-by-aiming-to-encrypt-vm-and-nix-systems/
 https://www.govinfosecurity.com/what-be-done-to-enhance-electrical-grid-security-a-17173
 https://www.govinfosecurity.com/what-be-done-to-enhance-electrical-grid-security-a-17173
+https://www.zdnet.com/article/google-claims-no-instances-of-foreign-interference-campaigns-targeting-australia/
+https://www.cisecurity.org/blog/mdbr-stops-ransomware-phishing-malware-and-more/
+https://www.helpnetsecurity.com/2021/07/30/cloud-backup-security-practices/
