@@ -1,1 +1,11 @@
 
+https://www.securityweek.com/remote-code-execution-flaws-patched-wordpress-download-manager-plugin
+https://www.crn.com.au/news/ey-australia-acquires-melbourne-msp-secureworx-568041
+https://ciso.economictimes.indiatimes.com/news/an-indian-firm-facing-1738-cyber-attacks-a-week-on-average-claims-report/84879895
+https://www.zdnet.com/article/home-affairs-asks-for-a-rush-on-critical-infrastructure-bill-to-allow-asd-to-act-lawfully/
+https://www.microsoft.com/security/blog/2021/07/29/bazacall-phony-call-centers-lead-to-exfiltration-and-ransomware/
+https://finance.yahoo.com/news/activefence-comes-shadows-100m-funding-050802629.html
+https://www.nextgov.com/cybersecurity/2021/07/survey-pandemic-has-left-public-sector-it-exposed/184136/
+https://www.mcafee.com/blogs/other-blogs/mcafee-labs/babuk-biting-off-more-than-they-could-chew-by-aiming-to-encrypt-vm-and-nix-systems/
+https://www.govinfosecurity.com/what-be-done-to-enhance-electrical-grid-security-a-17173
+https://www.govinfosecurity.com/what-be-done-to-enhance-electrical-grid-security-a-17173
