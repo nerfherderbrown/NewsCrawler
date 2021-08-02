@@ -25,7 +25,7 @@ foreach ($item in $test){
     }
     else{write-host "Links already in file"}
 }
-$URI = 'https://discord.com/api/webhooks/870740331832950814/aidCdz3R9HIRjV8jAbGSOU31_rrVQWcBmLKiBxc_ssGHR1wFpEg8Hxch2ZY5w5KrRfuy'
+$URI = 'https://discord.com/api/webhooks/871765823373582416/QnnwvVjnNy6I9aWYiGnQn-U3wn0dMqjdRdSpEkHhMHMsWu9IwYkEyw4wnR082myPOpKI'
 [System.Collections.ArrayList]$embedArray = @()
 $color = '4289797'
 if ($all_resources){
